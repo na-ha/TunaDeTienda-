@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AEE2F6927BD59F200F56D60 /* TiendaDeTunaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F6827BD59F200F56D60 /* TiendaDeTunaApp.swift */; };
+		9AEE2F6B27BD59F200F56D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F6A27BD59F200F56D60 /* ContentView.swift */; };
+		9AEE2F6D27BD59F300F56D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AEE2F6C27BD59F300F56D60 /* Assets.xcassets */; };
+		9AEE2F7027BD59F300F56D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AEE2F6F27BD59F300F56D60 /* Preview Assets.xcassets */; };
+		9AEE2F7A27BD59F300F56D60 /* TiendaDeTunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F7927BD59F300F56D60 /* TiendaDeTunaTests.swift */; };
+		9AEE2F8427BD59F300F56D60 /* TiendaDeTunaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F8327BD59F300F56D60 /* TiendaDeTunaUITests.swift */; };
+		9AEE2F8627BD59F300F56D60 /* TiendaDeTunaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F8527BD59F300F56D60 /* TiendaDeTunaUITestsLaunchTests.swift */; };
+		9AEE2F9627BD5A6F00F56D60 /* TunaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F9427BD5A6F00F56D60 /* TunaModel.swift */; };
+		9AEE2F9827BD5ABA00F56D60 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F9727BD5ABA00F56D60 /* ModelData.swift */; };
+		9AEE2F9A27BD5BC600F56D60 /* tunaData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AEE2F9927BD5BC600F56D60 /* tunaData.json */; };
+		9AEE2FA527BD5C2700F56D60 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F9E27BD5C2700F56D60 /* DismissButton.swift */; };
+		9AEE2FA627BD5C2700F56D60 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FA027BD5C2700F56D60 /* HomeView.swift */; };
+		9AEE2FA727BD5C2700F56D60 /* TunaItemDetailViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FA127BD5C2700F56D60 /* TunaItemDetailViewHelper.swift */; };
+		9AEE2FA827BD5C2700F56D60 /* TunaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FA227BD5C2700F56D60 /* TunaItemView.swift */; };
+		9AEE2FA927BD5C2700F56D60 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FA327BD5C2700F56D60 /* MenuView.swift */; };
+		9AEE2FB227BD5D5000F56D60 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FAD27BD5D5000F56D60 /* DetailView.swift */; };
+		9AEE2FB427BD5D5000F56D60 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FB027BD5D5000F56D60 /* GridViewModel.swift */; };
+		9AEE2FB527BD5D5000F56D60 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FB127BD5D5000F56D60 /* GridView.swift */; };
+		9AEE2FB727BD5E3500F56D60 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FB627BD5E3500F56D60 /* OrderViewModel.swift */; };
+		9AEE2FB927BD5EDC00F56D60 /* Bundle+LoadAndDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FB827BD5EDC00F56D60 /* Bundle+LoadAndDecode.swift */; };
+		9AEE2FBB27BD5F5300F56D60 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FBA27BD5F5300F56D60 /* OrderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AEE2F7627BD59F300F56D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AEE2F5D27BD59F200F56D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AEE2F6427BD59F200F56D60;
+			remoteInfo = TiendaDeTuna;
+		};
+		9AEE2F8027BD59F300F56D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AEE2F5D27BD59F200F56D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AEE2F6427BD59F200F56D60;
+			remoteInfo = TiendaDeTuna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AEE2F6527BD59F200F56D60 /* TiendaDeTuna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiendaDeTuna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEE2F6827BD59F200F56D60 /* TiendaDeTunaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendaDeTunaApp.swift; sourceTree = "<group>"; };
+		9AEE2F6A27BD59F200F56D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AEE2F6C27BD59F300F56D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AEE2F6F27BD59F300F56D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AEE2F7527BD59F300F56D60 /* TiendaDeTunaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiendaDeTunaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEE2F7927BD59F300F56D60 /* TiendaDeTunaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendaDeTunaTests.swift; sourceTree = "<group>"; };
+		9AEE2F7F27BD59F300F56D60 /* TiendaDeTunaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiendaDeTunaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEE2F8327BD59F300F56D60 /* TiendaDeTunaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendaDeTunaUITests.swift; sourceTree = "<group>"; };
+		9AEE2F8527BD59F300F56D60 /* TiendaDeTunaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendaDeTunaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9AEE2F9427BD5A6F00F56D60 /* TunaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunaModel.swift; sourceTree = "<group>"; };
+		9AEE2F9727BD5ABA00F56D60 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		9AEE2F9927BD5BC600F56D60 /* tunaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tunaData.json; sourceTree = "<group>"; };
+		9AEE2F9E27BD5C2700F56D60 /* DismissButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		9AEE2FA027BD5C2700F56D60 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9AEE2FA127BD5C2700F56D60 /* TunaItemDetailViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunaItemDetailViewHelper.swift; sourceTree = "<group>"; };
+		9AEE2FA227BD5C2700F56D60 /* TunaItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunaItemView.swift; sourceTree = "<group>"; };
+		9AEE2FA327BD5C2700F56D60 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9AEE2FAD27BD5D5000F56D60 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9AEE2FB027BD5D5000F56D60 /* GridViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		9AEE2FB127BD5D5000F56D60 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		9AEE2FB627BD5E3500F56D60 /* OrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		9AEE2FB827BD5EDC00F56D60 /* Bundle+LoadAndDecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+LoadAndDecode.swift"; sourceTree = "<group>"; };
+		9AEE2FBA27BD5F5300F56D60 /* OrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AEE2F6227BD59F200F56D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEE2F7227BD59F300F56D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEE2F7C27BD59F300F56D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AEE2F5C27BD59F200F56D60 = {
+			isa = PBXGroup;
+			children = (
+				9AEE2F6727BD59F200F56D60 /* TiendaDeTuna */,
+				9AEE2F7827BD59F300F56D60 /* TiendaDeTunaTests */,
+				9AEE2F8227BD59F300F56D60 /* TiendaDeTunaUITests */,
+				9AEE2F6627BD59F200F56D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AEE2F6627BD59F200F56D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2F6527BD59F200F56D60 /* TiendaDeTuna.app */,
+				9AEE2F7527BD59F300F56D60 /* TiendaDeTunaTests.xctest */,
+				9AEE2F7F27BD59F300F56D60 /* TiendaDeTunaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AEE2F6727BD59F200F56D60 /* TiendaDeTuna */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2F6827BD59F200F56D60 /* TiendaDeTunaApp.swift */,
+				9AEE2F6A27BD59F200F56D60 /* ContentView.swift */,
+				9AEE2FA027BD5C2700F56D60 /* HomeView.swift */,
+				9AEE2F9B27BD5C2700F56D60 /* Views */,
+				9AEE2F9227BD5A6F00F56D60 /* Model */,
+				9AEE2FAA27BD5CCE00F56D60 /* ViewModels */,
+				9AEE2F6C27BD59F300F56D60 /* Assets.xcassets */,
+				9AEE2F6E27BD59F300F56D60 /* Preview Content */,
+			);
+			path = TiendaDeTuna;
+			sourceTree = "<group>";
+		};
+		9AEE2F6E27BD59F300F56D60 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2F6F27BD59F300F56D60 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AEE2F7827BD59F300F56D60 /* TiendaDeTunaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2F7927BD59F300F56D60 /* TiendaDeTunaTests.swift */,
+			);
+			path = TiendaDeTunaTests;
+			sourceTree = "<group>";
+		};
+		9AEE2F8227BD59F300F56D60 /* TiendaDeTunaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2F8327BD59F300F56D60 /* TiendaDeTunaUITests.swift */,
+				9AEE2F8527BD59F300F56D60 /* TiendaDeTunaUITestsLaunchTests.swift */,
+			);
+			path = TiendaDeTunaUITests;
+			sourceTree = "<group>";
+		};
+		9AEE2F9227BD5A6F00F56D60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2F9427BD5A6F00F56D60 /* TunaModel.swift */,
+				9AEE2F9727BD5ABA00F56D60 /* ModelData.swift */,
+				9AEE2F9927BD5BC600F56D60 /* tunaData.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AEE2F9B27BD5C2700F56D60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2F9C27BD5C2700F56D60 /* Buttons */,
+				9AEE2F9F27BD5C2700F56D60 /* View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AEE2F9C27BD5C2700F56D60 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2F9E27BD5C2700F56D60 /* DismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		9AEE2F9F27BD5C2700F56D60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2FA327BD5C2700F56D60 /* MenuView.swift */,
+				9AEE2FBC27BD658800F56D60 /* HelperViews */,
+				9AEE2FAB27BD5D5000F56D60 /* Screens */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AEE2FAA27BD5CCE00F56D60 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2FB627BD5E3500F56D60 /* OrderViewModel.swift */,
+				9AEE2FB027BD5D5000F56D60 /* GridViewModel.swift */,
+				9AEE2FB827BD5EDC00F56D60 /* Bundle+LoadAndDecode.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9AEE2FAB27BD5D5000F56D60 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2FAD27BD5D5000F56D60 /* DetailView.swift */,
+				9AEE2FB127BD5D5000F56D60 /* GridView.swift */,
+				9AEE2FBA27BD5F5300F56D60 /* OrderView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9AEE2FBC27BD658800F56D60 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE2FA127BD5C2700F56D60 /* TunaItemDetailViewHelper.swift */,
+				9AEE2FA227BD5C2700F56D60 /* TunaItemView.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AEE2F6427BD59F200F56D60 /* TiendaDeTuna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEE2F8927BD59F300F56D60 /* Build configuration list for PBXNativeTarget "TiendaDeTuna" */;
+			buildPhases = (
+				9AEE2F6127BD59F200F56D60 /* Sources */,
+				9AEE2F6227BD59F200F56D60 /* Frameworks */,
+				9AEE2F6327BD59F200F56D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiendaDeTuna;
+			productName = TiendaDeTuna;
+			productReference = 9AEE2F6527BD59F200F56D60 /* TiendaDeTuna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AEE2F7427BD59F300F56D60 /* TiendaDeTunaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEE2F8C27BD59F300F56D60 /* Build configuration list for PBXNativeTarget "TiendaDeTunaTests" */;
+			buildPhases = (
+				9AEE2F7127BD59F300F56D60 /* Sources */,
+				9AEE2F7227BD59F300F56D60 /* Frameworks */,
+				9AEE2F7327BD59F300F56D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AEE2F7727BD59F300F56D60 /* PBXTargetDependency */,
+			);
+			name = TiendaDeTunaTests;
+			productName = TiendaDeTunaTests;
+			productReference = 9AEE2F7527BD59F300F56D60 /* TiendaDeTunaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AEE2F7E27BD59F300F56D60 /* TiendaDeTunaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEE2F8F27BD59F300F56D60 /* Build configuration list for PBXNativeTarget "TiendaDeTunaUITests" */;
+			buildPhases = (
+				9AEE2F7B27BD59F300F56D60 /* Sources */,
+				9AEE2F7C27BD59F300F56D60 /* Frameworks */,
+				9AEE2F7D27BD59F300F56D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AEE2F8127BD59F300F56D60 /* PBXTargetDependency */,
+			);
+			name = TiendaDeTunaUITests;
+			productName = TiendaDeTunaUITests;
+			productReference = 9AEE2F7F27BD59F300F56D60 /* TiendaDeTunaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AEE2F5D27BD59F200F56D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9AEE2F6427BD59F200F56D60 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9AEE2F7427BD59F300F56D60 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9AEE2F6427BD59F200F56D60;
+					};
+					9AEE2F7E27BD59F300F56D60 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9AEE2F6427BD59F200F56D60;
+					};
+				};
+			};
+			buildConfigurationList = 9AEE2F6027BD59F200F56D60 /* Build configuration list for PBXProject "TiendaDeTuna" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AEE2F5C27BD59F200F56D60;
+			productRefGroup = 9AEE2F6627BD59F200F56D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AEE2F6427BD59F200F56D60 /* TiendaDeTuna */,
+				9AEE2F7427BD59F300F56D60 /* TiendaDeTunaTests */,
+				9AEE2F7E27BD59F300F56D60 /* TiendaDeTunaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AEE2F6327BD59F200F56D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEE2F9A27BD5BC600F56D60 /* tunaData.json in Resources */,
+				9AEE2F7027BD59F300F56D60 /* Preview Assets.xcassets in Resources */,
+				9AEE2F6D27BD59F300F56D60 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEE2F7327BD59F300F56D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEE2F7D27BD59F300F56D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AEE2F6127BD59F200F56D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEE2FB427BD5D5000F56D60 /* GridViewModel.swift in Sources */,
+				9AEE2FA527BD5C2700F56D60 /* DismissButton.swift in Sources */,
+				9AEE2FA627BD5C2700F56D60 /* HomeView.swift in Sources */,
+				9AEE2FB927BD5EDC00F56D60 /* Bundle+LoadAndDecode.swift in Sources */,
+				9AEE2FB527BD5D5000F56D60 /* GridView.swift in Sources */,
+				9AEE2F6B27BD59F200F56D60 /* ContentView.swift in Sources */,
+				9AEE2FB227BD5D5000F56D60 /* DetailView.swift in Sources */,
+				9AEE2F9827BD5ABA00F56D60 /* ModelData.swift in Sources */,
+				9AEE2FA927BD5C2700F56D60 /* MenuView.swift in Sources */,
+				9AEE2FBB27BD5F5300F56D60 /* OrderView.swift in Sources */,
+				9AEE2F9627BD5A6F00F56D60 /* TunaModel.swift in Sources */,
+				9AEE2FA827BD5C2700F56D60 /* TunaItemView.swift in Sources */,
+				9AEE2FB727BD5E3500F56D60 /* OrderViewModel.swift in Sources */,
+				9AEE2FA727BD5C2700F56D60 /* TunaItemDetailViewHelper.swift in Sources */,
+				9AEE2F6927BD59F200F56D60 /* TiendaDeTunaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEE2F7127BD59F300F56D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEE2F7A27BD59F300F56D60 /* TiendaDeTunaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEE2F7B27BD59F300F56D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEE2F8627BD59F300F56D60 /* TiendaDeTunaUITestsLaunchTests.swift in Sources */,
+				9AEE2F8427BD59F300F56D60 /* TiendaDeTunaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AEE2F7727BD59F300F56D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AEE2F6427BD59F200F56D60 /* TiendaDeTuna */;
+			targetProxy = 9AEE2F7627BD59F300F56D60 /* PBXContainerItemProxy */;
+		};
+		9AEE2F8127BD59F300F56D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AEE2F6427BD59F200F56D60 /* TiendaDeTuna */;
+			targetProxy = 9AEE2F8027BD59F300F56D60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9AEE2F8727BD59F300F56D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AEE2F8827BD59F300F56D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AEE2F8A27BD59F300F56D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TiendaDeTuna/Preview Content\"";
+				DEVELOPMENT_TEAM = B62JCW6375;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenitoR.TiendaDeTuna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AEE2F8B27BD59F300F56D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TiendaDeTuna/Preview Content\"";
+				DEVELOPMENT_TEAM = B62JCW6375;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenitoR.TiendaDeTuna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AEE2F8D27BD59F300F56D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B62JCW6375;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenitoR.TiendaDeTunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiendaDeTuna.app/TiendaDeTuna";
+			};
+			name = Debug;
+		};
+		9AEE2F8E27BD59F300F56D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B62JCW6375;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenitoR.TiendaDeTunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiendaDeTuna.app/TiendaDeTuna";
+			};
+			name = Release;
+		};
+		9AEE2F9027BD59F300F56D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B62JCW6375;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenitoR.TiendaDeTunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiendaDeTuna;
+			};
+			name = Debug;
+		};
+		9AEE2F9127BD59F300F56D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B62JCW6375;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenitoR.TiendaDeTunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiendaDeTuna;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AEE2F6027BD59F200F56D60 /* Build configuration list for PBXProject "TiendaDeTuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEE2F8727BD59F300F56D60 /* Debug */,
+				9AEE2F8827BD59F300F56D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEE2F8927BD59F300F56D60 /* Build configuration list for PBXNativeTarget "TiendaDeTuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEE2F8A27BD59F300F56D60 /* Debug */,
+				9AEE2F8B27BD59F300F56D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEE2F8C27BD59F300F56D60 /* Build configuration list for PBXNativeTarget "TiendaDeTunaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEE2F8D27BD59F300F56D60 /* Debug */,
+				9AEE2F8E27BD59F300F56D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEE2F8F27BD59F300F56D60 /* Build configuration list for PBXNativeTarget "TiendaDeTunaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEE2F9027BD59F300F56D60 /* Debug */,
+				9AEE2F9127BD59F300F56D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AEE2F5D27BD59F200F56D60 /* Project object */;
+}
