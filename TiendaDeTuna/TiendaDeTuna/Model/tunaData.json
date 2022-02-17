@@ -1,6 +1,6 @@
 [
     {
-        "name": "????????",
+        "name": "Seatle",
         "meatOne": "Rivers",
         "meatTwo": "Twentynine Palms",
         "price": 4.01,
@@ -8,8 +8,8 @@
         
         "quantity": 0,
         
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan li",
-        "image": "philly"
+        "description": "A Seattle roll is a makizushi roll similar to the California roll.[1] It typically contains cucumber, avocado, raw Pacific salmon, and masago or tobiko. Variations include ingredients such as smoked or seared salmon, and almost always cream cheese.",
+        "image": "seattle"
     },
     {
         "name": "Philly",
@@ -83,7 +83,7 @@
         "price": 4.01,
         "id": 1008,
         "quantity": 0,
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, c",
+        "description": "Boston Rolls are filled with creamy avocado, poached shrimp, and crunchy cucumber, then rolled in nori seaweed sheet and sushi rice.",
         "image": "boston"
     },
     {
