@@ -1,161 +1,185 @@
 [
     {
-        "name": "Seatle",
-        "meatOne": "Rivers",
-        "meatTwo": "Twentynine Palms",
+        "name": "seattle",
         "price": 4.01,
         "id": 1001,
-        
         "quantity": 0,
+        "description": "Our Seattle roll is a makizushi roll similar to the California roll. It  contains cucumber, avocado, raw Pacific salmon, and masago. All sorts of flavour combinations for the beginner to the sushi expert. ",
+        "image": "seattle",
+        "backgroundColorProduct":["251","160","62"],
+        "headline": "Contains cucumber, avocado, raw Pacific salmon, and masago +  includes smoked salmon, and cream cheese.",
+        "genre": [ "salmon"]
         
-        "description": "A Seattle roll is a makizushi roll similar to the California roll.[1] It typically contains cucumber, avocado, raw Pacific salmon, and masago or tobiko. Variations include ingredients such as smoked or seared salmon, and almost always cream cheese.",
-        "image": "seattle"
     },
     {
-        "name": "Philly",
-        "meatOne": "Lakes",
-        "meatTwo": "Port Alsworth",
+        "name": "philly",
         "price": 4.01,
         "id": 1002,
         "quantity": 0,
-      
-        "description": " Philadelphia roll is a makizushi (also classified as a kawarizushi)[1] type of sushi generally made with smoked salmon, cream cheese, and cucumber.[2] It can also include other ingredients, such as other types of fish,[3] avocado,[4] scallions,[5] and sesame seed. Like many Western-inspired sushi rolls, the ingredients and name are based on an American market ",
-        "image": "philly"
+        "description": "Philadelphia roll is a makizushi (also classified as a kawarizushi) a type of sushi made with smoked salmon, cream cheese, and cucumber. It  also includes avocado, scallions, and sesame seed.",
+        "image": "philly",
+        "backgroundColorProduct":["226","189","128"],
+        "headline": "Our Crispy Rolls are served with your choice of spicy light mayo, soy, and sesame sauce.",
+        "genre": ["cucumber", "salmon","avocado"]
+
     },
     {
-        "name": "Cali",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
+        "name": "lobster tempura",
+        "price": 4.01,
+        "id": 1015,
+        "quantity": 0,
+        "description": "Crispy Fried Lobster with Avocado, topped with Masago and Special Sauce.",
+        "image": "tempuralobster",
+        "backgroundColorProduct":["251","160","62"],
+        "headline": "Large rolls cut into five pieces with lobster, crab, mango, avocado, spicy light, light mayo, lettuce, lemon, sesame, and rice paper.",
+        "genre": [ "lobster","crab","avocado"]
+        
+    },
+    {
+        "name": "cali",
         "price": 4.01,
         "id": 1003,
         "quantity": 0,
-        "description": "The main wrapped ingredients are the avocado and crab meat,[3] or imitation crab (surimi crab), and the optional mayonnaise; these are all typically wrapped with seaweed, although soy paper can be used.[4] The cucumber may have been used since the beginning,[5] or added later,[6] depending on the account. The inside-out roll may be sprinkled on the outside with sesame seeds; tobiko (flying fish roe),[7][8] or masago (capelin roe) may be used.",
-        
-        
-        "image": "california-roll"
+        "description": "The main wrapped ingredients are the avocado,crab meat and mayonnaise wrapped with seaweed. The inside-out roll is sprinkled on the outside with sesame seeds.",
+        "image": "california-roll",
+        "backgroundColorProduct":["240","220","145"],
+        "headline": "Crab, Avocado, + Cucumber. Beautiful simplicity. ",
+       "genre": ["crab", "avocado","cucumber"]
+
+
+
     },
     {
-        "name": "Rainbow",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
+        "name": "rainbow",
         "price": 4.01,
         "id": 1004,
         "quantity": 0,
-        "description": "The rainbow roll is considered as the next step of sushi introduction into the United States culinary culture after the California roll, the first roll with nori seaweed leaf hidden inside rice.[3] While the California roll uses no raw fish at all, the rainbow roll takes it one step further by adding raw tuna, salmon, shrimp, and white fish.",
-        "image": "rainbow"
-    },
+        "description": "The rainbow roll takes it one step further by adding raw tuna, salmon, shrimp, and white fish.",
+        "image": "rainbow",
+        "backgroundColorProduct":["204","221","11"],
+        "headline": "California Roll but topped with Tuna, Salmon, White Fish, Avocado and Shrimp.",
+       "genre": ["tuna", "salmon", "shrimp", "whiteFish"]
+},
     
     {
-        "name": "Spicy Tuna",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
+        "name": "spicy tuna",
         "price": 4.01,
         "id": 1005,
         "quantity": 0,
-    "description": "A Spicy tuna roll is a makizushi roll that usually contains raw tuna, and spicy mayo or sriracha. The roll is often seasoned with Ichimi togarashi (ground Red chile powder).",
-        "image": "spicy-tuna-roll"
-    },
+    "description": "The Spicy tuna roll is a makizushi roll that  contains raw tuna, and spicy mayo. The roll is seasoned with Ichimi togarashi (ground Red chile powder).",
+        "image": "spicy-tuna-roll",
+        "backgroundColorProduct":["194","59","40"],
+        "headline": "Tuna and Green Onion in Spicy Sauce.",
+       "genre": ["tuna"]
+ },
     {
-        "name": "Dragon",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
-        "price": 4.01,
+        "name": "dragon",
+        "price": 2.95,
         "id": 1006,
         "quantity": 0,
-        "description": "The traditional dragon roll sushi is made of shrimp tempura and cucumber which are tucked inside the nori and with thinly avocado slices which are layered on top of the sushi roll. The main reason for the name of dragon roll sushi is when it’s sliced, the artistically arranged sushi resembles the scales of a dragon. The dragon roll sushi is usually topped with Tobiko or Masago roes and drizzled with spicy mayonnaise and unagi sauce, some recipes use masago sauce or tobiko sauce because they contain mayo and other spicy ingredients. This mixture will give dragon sushi a spicy texture.",
-        "image": "dragon"
+        "description": "Our dragon roll sushi is made of shrimp tempura and cucumber which are tucked inside the nori and with thinly avocado slices which are layered on top of the sushi roll. The main reason for the name of dragon roll sushi is when it’s sliced, the artistically arranged sushi resembles the scales of a dragon. ",
+        "image": "dragon",
+        "backgroundColorProduct":["194","216","40"],
+        "headline": "Fried Jumbo Shrimp, Avocado, Green Onion, Masago and Spicy-Mayo.",
+       "genre": ["shrimp", "avocado"]
     },
     {
-        "name": "Cucumber",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
+        "name": "cucumber",
         "price": 4.01,
         "id": 1007,
         "quantity": 0,
-        "description": "2 medium cucumbers, halved 1/4 avocado, thinly sliced, 1/2 red bell pepper, thinly sliced, 1/2 yellow bell pepper, thinly sliced ,2 small carrots, thinly sliced",
-        "image": "cucumber"
+        "description": "Veggie delight with cucumbers and avocado rolled in rice.",
+        "image": "cucumber-roll",
+        "backgroundColorProduct":["68","255","145"],
+        "headline": "Small rolls containing two ingredients.  Simple and delicious.",
+       "genre": ["cucumber"]
+
+
+
     },
     
     {
-        "name": "Boston",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
-        "price": 4.01,
+        "name": "boston",
+        "price": 3.45,
         "id": 1008,
         "quantity": 0,
-        "description": "Boston Rolls are filled with creamy avocado, poached shrimp, and crunchy cucumber, then rolled in nori seaweed sheet and sushi rice.",
-        "image": "boston"
+        "description": "Our Boston Rolls are filled with creamy avocado, poached shrimp, and crunchy cucumber, then rolled in nori seaweed sheet and sushi rice.",
+        "image": "boston",
+        "backgroundColorProduct":["216","213","212"],
+        "headline": "shrimp, kanikama, cucumber, lettuce, light mayo, red masago, sesame ",
+       "genre": ["shrimp", "cucumber"]
+
+
+
     },
     {
-        "name": "Alaskan",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
-        "price": 4.01,
+        "name": "alaskan",
+        "price": 4.55,
         "id": 1009,
         "quantity": 0,
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, c",
-        "image": "alaskan"
+        "description": "This is a roll with the rice inside rather than outside. These are stuffed with smoked salmon, crab, and avocado.",
+        "image": "alaskan",
+        "backgroundColorProduct":["240","220","145"],
+        "headline": "The combination of salmon, crab, rice, and avocado is usually a winning and delicious mixture.",
+       "genre": ["crab", "salmon","avocado"]
+
     },
     {
-        "name": "Teriyaki",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
-        "price": 4.01,
+        "name": "teriyaki",
+    "price": 5.51,
         "id": 1010,
         "quantity": 0,
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, c",
-        "image": "teriyaki-roll"
+        "description": "A delicious mixture of sweet, sticky teriyaki chicken, crunchy cucumber and perfectly seasoned rice. The topping with soft avocado adds a real twist to the texture and flavour of this sushi roll.",
+        "image": "teriyaki-roll",
+        "backgroundColorProduct":["240","220","145"],
+        "headline": "Marinated boneless chicken topped with Teriyaki Sauce beautifully rolled. ",
+       "genre": ["chicken", "cucumber","avocado"]
+
     },
     {
-        "name": "Shrimp Tempura",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
+        "name": "shrimp tempura",
         "price": 4.01,
         "id": 1011,
         "quantity": 0,
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, c",
-        "image": "shrimp-tempura"
-    },
+        "description": "This is a crunchy and savory sushi roll made with baked and battered shrimp, sushi rice, nori, cucumber, and avocado. A little tobiko and Unagi Sushi Sauce as the garnish spruce it up and give each piece a little tang to balance the flavors.",
+        "image": "shrimp-tempura",
+        "backgroundColorProduct":["240","220","145"],
+        "headline": "shrimp tempura, avocado, cucumber, orange masago, spicy light mayo, sesame",
+       "genre": ["shrimp", "avocado","cucumber"]
+ },
     {
-        "name": "Spider Roll",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
-        "price": 4.01,
+        "name": "spider",
+     "price": 3.65,
         "id": 1012,
         "quantity": 0,
-
-
-       
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, c",
-        "image": "spider"
-    },
+        "description": "This roll is a type of makizushi sushi that includes breaded soft-shell crab and other ingredients such as cucumber, avocado,lettuce, and spicy mayonnaise, rolled inside nori and sushi rice.",
+        "image": "spider",
+        "backgroundColorProduct":["165","57","0"],
+        "headline": "shrimp tempura, avocado, cucumber, orange masago, spicy light mayo, sesame",
+       "genre": ["shrimp", "avocado","cucumber"]
+},
     {
-        "name": "Hawaiian",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
-        "price": 4.01,
+        "name": "hawaiian",
+        "price": 3.55,
         "id": 1013,
         "quantity": 0,
-
-
-       
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, c",
-        "image": "hawaiian"
-    },
+        "description": "The shrimp, crab, and cucumber are inside, with seared ahi & avocado outside, drizzled with sweet mandarin sauce, topped with tempura crunchies, scallions, and kuro goma (sesame seed).",
+        "image": "hawaiian",
+        "backgroundColorProduct":["251","230","128"],
+        "headline": "Like a California roll but with a twist - it's star ingredients are shrimp and mango.",
+       "genre": ["shrimp", "crab","cucumber","avocado"]
+ },
     {
-        "name": "Tuna Roll",
-        "meatOne": "Mountains",
-        "meatTwo": "Skagway",
-        "price": 4.01,
+        "name": "tuna",
+        "price": 3.51,
         "id": 1014,
         "quantity": 0,
-
-
-
-       
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, c",
-        "image": "tuna-roll"
-    }
+        "description": "Our Tuna roll (Tekka maki) is simply a raw tuna sushi roll. It’s a classic hosomaki with the nori seaweed on the outside + it only has a few ingredients, including whole slices of lean tuna.",
+        "image": "tuna-roll",
+        "backgroundColorProduct":["209","82","35"],
+        "headline": "Simple and elegant - not bathed in sauce, fried, or stuffed with ingredients. ",
+       "genre": ["tuna"] }
 
 ]
+
 

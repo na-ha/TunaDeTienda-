@@ -7,8 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302F183C910D0CB2B7518CA9 /* Pods_TiendaDeTunaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14264B47076B16E7C377E333 /* Pods_TiendaDeTunaTests.framework */; };
+		9A02EB3F27F256FC004F120C /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02EB3E27F256FC004F120C /* CartItem.swift */; };
+		9A34DF71280087A7007CE502 /* tuna_espanol.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A34DF70280087A7007CE502 /* tuna_espanol.json */; };
+		9A6E86FB27FA2A6C00E4A683 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E86F827FA2A6C00E4A683 /* ContactInfo.swift */; };
+		9A6E86FC27FA2A6C00E4A683 /* MapsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E86F927FA2A6C00E4A683 /* MapsUIView.swift */; };
+		9A6E86FD27FA2A6C00E4A683 /* ContactImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E86FA27FA2A6C00E4A683 /* ContactImageView.swift */; };
+		9A8EA11327F96333000791D1 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EA11227F96333000791D1 /* AboutUs.swift */; };
+		9AA076F927D511A2004CD674 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA076F827D511A2004CD674 /* Genre.swift */; };
+		9AA0941F27DBC6B200CBA756 /* TunaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0940F27DBC6B200CBA756 /* TunaItemView.swift */; };
+		9AA0942127DBC6B200CBA756 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0941127DBC6B200CBA756 /* MenuView.swift */; };
+		9AA0942327DBC6B200CBA756 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0941627DBC6B200CBA756 /* DismissButton.swift */; };
+		9AA0942627DBC6B200CBA756 /* IngredientsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0941927DBC6B200CBA756 /* IngredientsLabel.swift */; };
+		9AA0942727DBC6B200CBA756 /* DetailViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0941A27DBC6B200CBA756 /* DetailViewHeader.swift */; };
+		9AA0942827DBC6B200CBA756 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0941B27DBC6B200CBA756 /* DetailView.swift */; };
+		9AA0942A27DBC6B200CBA756 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0941D27DBC6B200CBA756 /* OrderView.swift */; };
+		9AA0942C27DBC6ED00CBA756 /* Bundle+LoadAndDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0942B27DBC6ED00CBA756 /* Bundle+LoadAndDecode.swift */; };
+		9ABB3A6627E3F58800B00B97 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABB3A6527E3F58800B00B97 /* NavigationManager.swift */; };
+		9ABB3A6E27E8ED5800B00B97 /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABB3A6D27E8ED5800B00B97 /* CheckOutView.swift */; };
+		9ABB3A7027EE456E00B00B97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ABB3A6F27EE456E00B00B97 /* GoogleService-Info.plist */; };
+		9ABB3A7627EE4EFF00B00B97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABB3A7527EE4EFF00B00B97 /* ContentView.swift */; };
+		9AD6CC5427F3A42200501035 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6CC5327F3A42200501035 /* LaunchView.swift */; };
+		9AD6CC5627F3A46900501035 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6CC5527F3A46900501035 /* VideoView.swift */; };
+		9AD6CC5A27F3A66B00501035 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9AD6CC5927F3A66B00501035 /* video.mp4 */; };
 		9AEE2F6927BD59F200F56D60 /* TiendaDeTunaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F6827BD59F200F56D60 /* TiendaDeTunaApp.swift */; };
-		9AEE2F6B27BD59F200F56D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F6A27BD59F200F56D60 /* ContentView.swift */; };
+		9AEE2F6B27BD59F200F56D60 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F6A27BD59F200F56D60 /* GridView.swift */; };
 		9AEE2F6D27BD59F300F56D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AEE2F6C27BD59F300F56D60 /* Assets.xcassets */; };
 		9AEE2F7027BD59F300F56D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AEE2F6F27BD59F300F56D60 /* Preview Assets.xcassets */; };
 		9AEE2F7A27BD59F300F56D60 /* TiendaDeTunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F7927BD59F300F56D60 /* TiendaDeTunaTests.swift */; };
@@ -17,17 +40,14 @@
 		9AEE2F9627BD5A6F00F56D60 /* TunaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F9427BD5A6F00F56D60 /* TunaModel.swift */; };
 		9AEE2F9827BD5ABA00F56D60 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F9727BD5ABA00F56D60 /* ModelData.swift */; };
 		9AEE2F9A27BD5BC600F56D60 /* tunaData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AEE2F9927BD5BC600F56D60 /* tunaData.json */; };
-		9AEE2FA527BD5C2700F56D60 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F9E27BD5C2700F56D60 /* DismissButton.swift */; };
-		9AEE2FA627BD5C2700F56D60 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FA027BD5C2700F56D60 /* HomeView.swift */; };
-		9AEE2FA727BD5C2700F56D60 /* TunaItemDetailViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FA127BD5C2700F56D60 /* TunaItemDetailViewHelper.swift */; };
-		9AEE2FA827BD5C2700F56D60 /* TunaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FA227BD5C2700F56D60 /* TunaItemView.swift */; };
-		9AEE2FA927BD5C2700F56D60 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FA327BD5C2700F56D60 /* MenuView.swift */; };
-		9AEE2FB227BD5D5000F56D60 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FAD27BD5D5000F56D60 /* DetailView.swift */; };
 		9AEE2FB427BD5D5000F56D60 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FB027BD5D5000F56D60 /* GridViewModel.swift */; };
-		9AEE2FB527BD5D5000F56D60 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FB127BD5D5000F56D60 /* GridView.swift */; };
 		9AEE2FB727BD5E3500F56D60 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FB627BD5E3500F56D60 /* OrderViewModel.swift */; };
-		9AEE2FB927BD5EDC00F56D60 /* Bundle+LoadAndDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FB827BD5EDC00F56D60 /* Bundle+LoadAndDecode.swift */; };
-		9AEE2FBB27BD5F5300F56D60 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2FBA27BD5F5300F56D60 /* OrderView.swift */; };
+		9AEF7AFE27F67C830039B47B /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEF7AFD27F67C830039B47B /* Checkbox.swift */; };
+		9AEF7B0027F77CF30039B47B /* OrderCompleted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEF7AFF27F77CF30039B47B /* OrderCompleted.swift */; };
+		9AEF7B0227F7B71E0039B47B /* FirebaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEF7B0127F7B71E0039B47B /* FirebaseViewModel.swift */; };
+		9AEF7B0427F8989C0039B47B /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEF7B0327F8989C0039B47B /* AuthenticationViewModel.swift */; };
+		AEDE47705A24C23836689CAD /* Pods_TiendaDeTuna_TiendaDeTunaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B19BDECF329729E339D7EFA /* Pods_TiendaDeTuna_TiendaDeTunaUITests.framework */; };
+		DB8275B75680408B2696FC78 /* Pods_TiendaDeTuna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5437316DC2C4BC6BB6A05BD8 /* Pods_TiendaDeTuna.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +68,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024B5C9DFACB5108AE13EB77 /* Pods-TiendaDeTuna-TiendaDeTunaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiendaDeTuna-TiendaDeTunaUITests.release.xcconfig"; path = "Target Support Files/Pods-TiendaDeTuna-TiendaDeTunaUITests/Pods-TiendaDeTuna-TiendaDeTunaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		14264B47076B16E7C377E333 /* Pods_TiendaDeTunaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiendaDeTunaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1615AA5E938F22FC73194C46 /* Pods-TiendaDeTunaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiendaDeTunaTests.debug.xcconfig"; path = "Target Support Files/Pods-TiendaDeTunaTests/Pods-TiendaDeTunaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5437316DC2C4BC6BB6A05BD8 /* Pods_TiendaDeTuna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiendaDeTuna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B19BDECF329729E339D7EFA /* Pods_TiendaDeTuna_TiendaDeTunaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiendaDeTuna_TiendaDeTunaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91513EBF760A18437E47A7C5 /* Pods-TiendaDeTunaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiendaDeTunaTests.release.xcconfig"; path = "Target Support Files/Pods-TiendaDeTunaTests/Pods-TiendaDeTunaTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A02EB3E27F256FC004F120C /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		9A34DF70280087A7007CE502 /* tuna_espanol.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tuna_espanol.json; sourceTree = "<group>"; };
+		9A6E86F827FA2A6C00E4A683 /* ContactInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
+		9A6E86F927FA2A6C00E4A683 /* MapsUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsUIView.swift; sourceTree = "<group>"; };
+		9A6E86FA27FA2A6C00E4A683 /* ContactImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactImageView.swift; sourceTree = "<group>"; };
+		9A8EA11227F96333000791D1 /* AboutUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		9AA076F827D511A2004CD674 /* Genre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		9AA0940F27DBC6B200CBA756 /* TunaItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunaItemView.swift; sourceTree = "<group>"; };
+		9AA0941127DBC6B200CBA756 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9AA0941627DBC6B200CBA756 /* DismissButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		9AA0941927DBC6B200CBA756 /* IngredientsLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsLabel.swift; sourceTree = "<group>"; };
+		9AA0941A27DBC6B200CBA756 /* DetailViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewHeader.swift; sourceTree = "<group>"; };
+		9AA0941B27DBC6B200CBA756 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9AA0941D27DBC6B200CBA756 /* OrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		9AA0942B27DBC6ED00CBA756 /* Bundle+LoadAndDecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+LoadAndDecode.swift"; sourceTree = "<group>"; };
+		9ABB3A6527E3F58800B00B97 /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		9ABB3A6D27E8ED5800B00B97 /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
+		9ABB3A6F27EE456E00B00B97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9ABB3A7127EE45C100B00B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9ABB3A7527EE4EFF00B00B97 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9ABB3A7727EE718100B00B97 /* TiendaDeTuna.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TiendaDeTuna.entitlements; sourceTree = "<group>"; };
+		9AD6CC5327F3A42200501035 /* LaunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		9AD6CC5527F3A46900501035 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		9AD6CC5927F3A66B00501035 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		9AEE2F6527BD59F200F56D60 /* TiendaDeTuna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiendaDeTuna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEE2F6827BD59F200F56D60 /* TiendaDeTunaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendaDeTunaApp.swift; sourceTree = "<group>"; };
-		9AEE2F6A27BD59F200F56D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AEE2F6A27BD59F200F56D60 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		9AEE2F6C27BD59F300F56D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AEE2F6F27BD59F300F56D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9AEE2F7527BD59F300F56D60 /* TiendaDeTunaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiendaDeTunaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,17 +111,15 @@
 		9AEE2F9427BD5A6F00F56D60 /* TunaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunaModel.swift; sourceTree = "<group>"; };
 		9AEE2F9727BD5ABA00F56D60 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		9AEE2F9927BD5BC600F56D60 /* tunaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tunaData.json; sourceTree = "<group>"; };
-		9AEE2F9E27BD5C2700F56D60 /* DismissButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
-		9AEE2FA027BD5C2700F56D60 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		9AEE2FA127BD5C2700F56D60 /* TunaItemDetailViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunaItemDetailViewHelper.swift; sourceTree = "<group>"; };
-		9AEE2FA227BD5C2700F56D60 /* TunaItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunaItemView.swift; sourceTree = "<group>"; };
-		9AEE2FA327BD5C2700F56D60 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		9AEE2FAD27BD5D5000F56D60 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		9AEE2FB027BD5D5000F56D60 /* GridViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
-		9AEE2FB127BD5D5000F56D60 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		9AEE2FB627BD5E3500F56D60 /* OrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
-		9AEE2FB827BD5EDC00F56D60 /* Bundle+LoadAndDecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+LoadAndDecode.swift"; sourceTree = "<group>"; };
-		9AEE2FBA27BD5F5300F56D60 /* OrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		9AEF7AFD27F67C830039B47B /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		9AEF7AFF27F77CF30039B47B /* OrderCompleted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCompleted.swift; sourceTree = "<group>"; };
+		9AEF7B0127F7B71E0039B47B /* FirebaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewModel.swift; sourceTree = "<group>"; };
+		9AEF7B0327F8989C0039B47B /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		9BD99F8BD317C222523F9765 /* Pods-TiendaDeTuna-TiendaDeTunaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiendaDeTuna-TiendaDeTunaUITests.debug.xcconfig"; path = "Target Support Files/Pods-TiendaDeTuna-TiendaDeTunaUITests/Pods-TiendaDeTuna-TiendaDeTunaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD3EE9D3A614A61889383E28 /* Pods-TiendaDeTuna.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiendaDeTuna.release.xcconfig"; path = "Target Support Files/Pods-TiendaDeTuna/Pods-TiendaDeTuna.release.xcconfig"; sourceTree = "<group>"; };
+		DA8C2016294EFB1FB08A8332 /* Pods-TiendaDeTuna.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiendaDeTuna.debug.xcconfig"; path = "Target Support Files/Pods-TiendaDeTuna/Pods-TiendaDeTuna.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8275B75680408B2696FC78 /* Pods_TiendaDeTuna.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302F183C910D0CB2B7518CA9 /* Pods_TiendaDeTunaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,12 +143,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDE47705A24C23836689CAD /* Pods_TiendaDeTuna_TiendaDeTunaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DD5CBB9EACFA9E8300973E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA8C2016294EFB1FB08A8332 /* Pods-TiendaDeTuna.debug.xcconfig */,
+				AD3EE9D3A614A61889383E28 /* Pods-TiendaDeTuna.release.xcconfig */,
+				9BD99F8BD317C222523F9765 /* Pods-TiendaDeTuna-TiendaDeTunaUITests.debug.xcconfig */,
+				024B5C9DFACB5108AE13EB77 /* Pods-TiendaDeTuna-TiendaDeTunaUITests.release.xcconfig */,
+				1615AA5E938F22FC73194C46 /* Pods-TiendaDeTunaTests.debug.xcconfig */,
+				91513EBF760A18437E47A7C5 /* Pods-TiendaDeTunaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9AA0940B27DBC6B200CBA756 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AA0941427DBC6B200CBA756 /* Buttons */,
+				9AE382F0280364620037EE6A /* HelperViews */,
+				9AA0940C27DBC6B200CBA756 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AA0940C27DBC6B200CBA756 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9AD6CC5327F3A42200501035 /* LaunchView.swift */,
+				9ABB3A7527EE4EFF00B00B97 /* ContentView.swift */,
+				9AEE2F6A27BD59F200F56D60 /* GridView.swift */,
+				9AA0941B27DBC6B200CBA756 /* DetailView.swift */,
+				9A8EA11227F96333000791D1 /* AboutUs.swift */,
+				9A6E86F827FA2A6C00E4A683 /* ContactInfo.swift */,
+				9AA0941D27DBC6B200CBA756 /* OrderView.swift */,
+				9ABB3A6D27E8ED5800B00B97 /* CheckOutView.swift */,
+				9AEF7AFF27F77CF30039B47B /* OrderCompleted.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9AA0941427DBC6B200CBA756 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				9AEF7AFD27F67C830039B47B /* Checkbox.swift */,
+				9AA0941627DBC6B200CBA756 /* DismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		9AE382F0280364620037EE6A /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				9A6E86FA27FA2A6C00E4A683 /* ContactImageView.swift */,
+				9AA0941A27DBC6B200CBA756 /* DetailViewHeader.swift */,
+				9AA0940F27DBC6B200CBA756 /* TunaItemView.swift */,
+				9AA0941127DBC6B200CBA756 /* MenuView.swift */,
+				9AA0941927DBC6B200CBA756 /* IngredientsLabel.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
 		9AEE2F5C27BD59F200F56D60 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +217,8 @@
 				9AEE2F7827BD59F300F56D60 /* TiendaDeTunaTests */,
 				9AEE2F8227BD59F300F56D60 /* TiendaDeTunaUITests */,
 				9AEE2F6627BD59F200F56D60 /* Products */,
+				2DD5CBB9EACFA9E8300973E0 /* Pods */,
+				F79A7EC6D191360E026FBC17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,11 +236,15 @@
 			isa = PBXGroup;
 			children = (
 				9AEE2F6827BD59F200F56D60 /* TiendaDeTunaApp.swift */,
-				9AEE2F6A27BD59F200F56D60 /* ContentView.swift */,
-				9AEE2FA027BD5C2700F56D60 /* HomeView.swift */,
-				9AEE2F9B27BD5C2700F56D60 /* Views */,
+				9AD6CC5927F3A66B00501035 /* video.mp4 */,
+				9ABB3A7727EE718100B00B97 /* TiendaDeTuna.entitlements */,
+				9ABB3A7127EE45C100B00B97 /* Info.plist */,
+				9ABB3A6F27EE456E00B00B97 /* GoogleService-Info.plist */,
+				9A6E86F927FA2A6C00E4A683 /* MapsUIView.swift */,
+				9AD6CC5527F3A46900501035 /* VideoView.swift */,
 				9AEE2F9227BD5A6F00F56D60 /* Model */,
 				9AEE2FAA27BD5CCE00F56D60 /* ViewModels */,
+				9AA0940B27DBC6B200CBA756 /* Views */,
 				9AEE2F6C27BD59F300F56D60 /* Assets.xcassets */,
 				9AEE2F6E27BD59F300F56D60 /* Preview Content */,
 			);
@@ -162,67 +279,37 @@
 		9AEE2F9227BD5A6F00F56D60 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9A02EB3E27F256FC004F120C /* CartItem.swift */,
+				9AA0942B27DBC6ED00CBA756 /* Bundle+LoadAndDecode.swift */,
 				9AEE2F9427BD5A6F00F56D60 /* TunaModel.swift */,
+				9AA076F827D511A2004CD674 /* Genre.swift */,
 				9AEE2F9727BD5ABA00F56D60 /* ModelData.swift */,
 				9AEE2F9927BD5BC600F56D60 /* tunaData.json */,
+				9A34DF70280087A7007CE502 /* tuna_espanol.json */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		9AEE2F9B27BD5C2700F56D60 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				9AEE2F9C27BD5C2700F56D60 /* Buttons */,
-				9AEE2F9F27BD5C2700F56D60 /* View */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		9AEE2F9C27BD5C2700F56D60 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				9AEE2F9E27BD5C2700F56D60 /* DismissButton.swift */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
-		9AEE2F9F27BD5C2700F56D60 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				9AEE2FA327BD5C2700F56D60 /* MenuView.swift */,
-				9AEE2FBC27BD658800F56D60 /* HelperViews */,
-				9AEE2FAB27BD5D5000F56D60 /* Screens */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		9AEE2FAA27BD5CCE00F56D60 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9AEF7B0327F8989C0039B47B /* AuthenticationViewModel.swift */,
+				9AEF7B0127F7B71E0039B47B /* FirebaseViewModel.swift */,
 				9AEE2FB627BD5E3500F56D60 /* OrderViewModel.swift */,
+				9ABB3A6527E3F58800B00B97 /* NavigationManager.swift */,
 				9AEE2FB027BD5D5000F56D60 /* GridViewModel.swift */,
-				9AEE2FB827BD5EDC00F56D60 /* Bundle+LoadAndDecode.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		9AEE2FAB27BD5D5000F56D60 /* Screens */ = {
+		F79A7EC6D191360E026FBC17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9AEE2FAD27BD5D5000F56D60 /* DetailView.swift */,
-				9AEE2FB127BD5D5000F56D60 /* GridView.swift */,
-				9AEE2FBA27BD5F5300F56D60 /* OrderView.swift */,
+				5437316DC2C4BC6BB6A05BD8 /* Pods_TiendaDeTuna.framework */,
+				7B19BDECF329729E339D7EFA /* Pods_TiendaDeTuna_TiendaDeTunaUITests.framework */,
+				14264B47076B16E7C377E333 /* Pods_TiendaDeTunaTests.framework */,
 			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		9AEE2FBC27BD658800F56D60 /* HelperViews */ = {
-			isa = PBXGroup;
-			children = (
-				9AEE2FA127BD5C2700F56D60 /* TunaItemDetailViewHelper.swift */,
-				9AEE2FA227BD5C2700F56D60 /* TunaItemView.swift */,
-			);
-			path = HelperViews;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AEE2F8927BD59F300F56D60 /* Build configuration list for PBXNativeTarget "TiendaDeTuna" */;
 			buildPhases = (
+				3AFFE01086AC112411B69950 /* [CP] Check Pods Manifest.lock */,
 				9AEE2F6127BD59F200F56D60 /* Sources */,
 				9AEE2F6227BD59F200F56D60 /* Frameworks */,
 				9AEE2F6327BD59F200F56D60 /* Resources */,
+				C5E82661C43C4CEB518A313D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +338,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AEE2F8C27BD59F300F56D60 /* Build configuration list for PBXNativeTarget "TiendaDeTunaTests" */;
 			buildPhases = (
+				0D990C81585216AC2F23165A /* [CP] Check Pods Manifest.lock */,
 				9AEE2F7127BD59F300F56D60 /* Sources */,
 				9AEE2F7227BD59F300F56D60 /* Frameworks */,
 				9AEE2F7327BD59F300F56D60 /* Resources */,
@@ -267,9 +357,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AEE2F8F27BD59F300F56D60 /* Build configuration list for PBXNativeTarget "TiendaDeTunaUITests" */;
 			buildPhases = (
+				4A877A19798BA4D8A6251F52 /* [CP] Check Pods Manifest.lock */,
 				9AEE2F7B27BD59F300F56D60 /* Sources */,
 				9AEE2F7C27BD59F300F56D60 /* Frameworks */,
 				9AEE2F7D27BD59F300F56D60 /* Resources */,
+				916C5FDF414F17B8C966046E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -310,6 +402,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"es-419",
 				Base,
 			);
 			mainGroup = 9AEE2F5C27BD59F200F56D60;
@@ -329,7 +422,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A34DF71280087A7007CE502 /* tuna_espanol.json in Resources */,
 				9AEE2F9A27BD5BC600F56D60 /* tunaData.json in Resources */,
+				9AD6CC5A27F3A66B00501035 /* video.mp4 in Resources */,
+				9ABB3A7027EE456E00B00B97 /* GoogleService-Info.plist in Resources */,
 				9AEE2F7027BD59F300F56D60 /* Preview Assets.xcassets in Resources */,
 				9AEE2F6D27BD59F300F56D60 /* Assets.xcassets in Resources */,
 			);
@@ -351,25 +447,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D990C81585216AC2F23165A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiendaDeTunaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AFFE01086AC112411B69950 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiendaDeTuna-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A877A19798BA4D8A6251F52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiendaDeTuna-TiendaDeTunaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		916C5FDF414F17B8C966046E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiendaDeTuna-TiendaDeTunaUITests/Pods-TiendaDeTuna-TiendaDeTunaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiendaDeTuna-TiendaDeTunaUITests/Pods-TiendaDeTuna-TiendaDeTunaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TiendaDeTuna-TiendaDeTunaUITests/Pods-TiendaDeTuna-TiendaDeTunaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E82661C43C4CEB518A313D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiendaDeTuna/Pods-TiendaDeTuna-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiendaDeTuna/Pods-TiendaDeTuna-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TiendaDeTuna/Pods-TiendaDeTuna-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9AEE2F6127BD59F200F56D60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9AEE2FB427BD5D5000F56D60 /* GridViewModel.swift in Sources */,
-				9AEE2FA527BD5C2700F56D60 /* DismissButton.swift in Sources */,
-				9AEE2FA627BD5C2700F56D60 /* HomeView.swift in Sources */,
-				9AEE2FB927BD5EDC00F56D60 /* Bundle+LoadAndDecode.swift in Sources */,
-				9AEE2FB527BD5D5000F56D60 /* GridView.swift in Sources */,
-				9AEE2F6B27BD59F200F56D60 /* ContentView.swift in Sources */,
-				9AEE2FB227BD5D5000F56D60 /* DetailView.swift in Sources */,
+				9AD6CC5427F3A42200501035 /* LaunchView.swift in Sources */,
+				9A6E86FD27FA2A6C00E4A683 /* ContactImageView.swift in Sources */,
+				9AA0942C27DBC6ED00CBA756 /* Bundle+LoadAndDecode.swift in Sources */,
+				9A02EB3F27F256FC004F120C /* CartItem.swift in Sources */,
+				9ABB3A6627E3F58800B00B97 /* NavigationManager.swift in Sources */,
+				9A6E86FB27FA2A6C00E4A683 /* ContactInfo.swift in Sources */,
+				9ABB3A7627EE4EFF00B00B97 /* ContentView.swift in Sources */,
+				9AA0942A27DBC6B200CBA756 /* OrderView.swift in Sources */,
+				9A8EA11327F96333000791D1 /* AboutUs.swift in Sources */,
+				9AEE2F6B27BD59F200F56D60 /* GridView.swift in Sources */,
+				9AA0941F27DBC6B200CBA756 /* TunaItemView.swift in Sources */,
+				9AA0942127DBC6B200CBA756 /* MenuView.swift in Sources */,
+				9AA0942627DBC6B200CBA756 /* IngredientsLabel.swift in Sources */,
+				9AEF7AFE27F67C830039B47B /* Checkbox.swift in Sources */,
+				9ABB3A6E27E8ED5800B00B97 /* CheckOutView.swift in Sources */,
+				9AA076F927D511A2004CD674 /* Genre.swift in Sources */,
+				9AD6CC5627F3A46900501035 /* VideoView.swift in Sources */,
 				9AEE2F9827BD5ABA00F56D60 /* ModelData.swift in Sources */,
-				9AEE2FA927BD5C2700F56D60 /* MenuView.swift in Sources */,
-				9AEE2FBB27BD5F5300F56D60 /* OrderView.swift in Sources */,
+				9AEF7B0227F7B71E0039B47B /* FirebaseViewModel.swift in Sources */,
+				9A6E86FC27FA2A6C00E4A683 /* MapsUIView.swift in Sources */,
 				9AEE2F9627BD5A6F00F56D60 /* TunaModel.swift in Sources */,
-				9AEE2FA827BD5C2700F56D60 /* TunaItemView.swift in Sources */,
 				9AEE2FB727BD5E3500F56D60 /* OrderViewModel.swift in Sources */,
-				9AEE2FA727BD5C2700F56D60 /* TunaItemDetailViewHelper.swift in Sources */,
+				9AA0942827DBC6B200CBA756 /* DetailView.swift in Sources */,
+				9AA0942327DBC6B200CBA756 /* DismissButton.swift in Sources */,
+				9AEF7B0427F8989C0039B47B /* AuthenticationViewModel.swift in Sources */,
+				9AA0942727DBC6B200CBA756 /* DetailViewHeader.swift in Sources */,
+				9AEF7B0027F77CF30039B47B /* OrderCompleted.swift in Sources */,
 				9AEE2F6927BD59F200F56D60 /* TiendaDeTunaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,15 +738,18 @@
 		};
 		9AEE2F8A27BD59F300F56D60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8C2016294EFB1FB08A8332 /* Pods-TiendaDeTuna.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TiendaDeTuna/TiendaDeTuna.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TiendaDeTuna/Preview Content\"";
-				DEVELOPMENT_TEAM = B62JCW6375;
+				DEVELOPMENT_TEAM = 7QBQN6WY4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TiendaDeTuna/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -544,25 +760,28 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BenitoR.TiendaDeTuna;
+				PRODUCT_BUNDLE_IDENTIFIER = BenR.TiendaDeTuna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9AEE2F8B27BD59F300F56D60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3EE9D3A614A61889383E28 /* Pods-TiendaDeTuna.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TiendaDeTuna/TiendaDeTuna.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TiendaDeTuna/Preview Content\"";
-				DEVELOPMENT_TEAM = B62JCW6375;
+				DEVELOPMENT_TEAM = 7QBQN6WY4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TiendaDeTuna/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -573,16 +792,17 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BenitoR.TiendaDeTuna;
+				PRODUCT_BUNDLE_IDENTIFIER = BenR.TiendaDeTuna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		9AEE2F8D27BD59F300F56D60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1615AA5E938F22FC73194C46 /* Pods-TiendaDeTunaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -603,6 +823,7 @@
 		};
 		9AEE2F8E27BD59F300F56D60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91513EBF760A18437E47A7C5 /* Pods-TiendaDeTunaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -623,6 +844,7 @@
 		};
 		9AEE2F9027BD59F300F56D60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD99F8BD317C222523F9765 /* Pods-TiendaDeTuna-TiendaDeTunaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -641,6 +863,7 @@
 		};
 		9AEE2F9127BD59F300F56D60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024B5C9DFACB5108AE13EB77 /* Pods-TiendaDeTuna-TiendaDeTunaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
