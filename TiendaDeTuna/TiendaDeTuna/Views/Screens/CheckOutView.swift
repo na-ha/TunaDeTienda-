@@ -60,8 +60,8 @@ struct CheckOutView: View {
           Button(action:
                     {self.showAlert = true
             print("additionalNotes\(additionalNotes)")
-            self.viewModel.addNewData(name: authenticationViewModel.customerName)
-            self.viewModel.addNewData(name: additionalNotes)  })
+            self.viewModel.addNewData(checkOutField: authenticationViewModel.customerName)
+              self.viewModel.addNewData(checkOutField: authenticationViewModel.phoneNumber)  })
             {Text("pedido")
               .font(.title2)
               .fontWeight(.heavy)
@@ -115,11 +115,7 @@ struct CheckOutView: View {
 //    cart = Cart(items: [], numberOfItems: 0, total: 0)
 //}
 
-struct CheckOutFields: Codable, Identifiable {
 
-  var id: String = UUID().uuidString
-  var name: String?
-}
 
 //struct CheckOutView_Previews: PreviewProvider
 //{

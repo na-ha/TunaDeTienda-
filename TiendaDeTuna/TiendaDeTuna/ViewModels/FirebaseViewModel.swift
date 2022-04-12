@@ -13,10 +13,22 @@ func getAllData()
               self.checkOutFields = documents.map { (queryDocumentSnapshot) -> CheckOutFields in
                   let data = queryDocumentSnapshot.data()
                   let name = data["name"] as? String ?? ""
-                  return CheckOutFields(name: name)}}}
+                  let phoneNum = data["phoneNum"] as? String ?? ""
 
-func addNewData(name: String)
-    {do {_ = try db.collection("checkOutFields").addDocument(data: ["name": name])  }
+                  return CheckOutFields(name: name, phoneNum: phoneNum)}}}
+
+func addNewData(checkOutField: String)
+    {do {_ = try db.collection("checkOutFields").addDocument(data: ["name": checkOutField, "phoneNum":checkOutField])  }
              catch {print(error.localizedDescription) }}
     
+}
+
+import Foundation
+import FirebaseFirestore
+struct CheckOutFields: Codable, Identifiable {
+
+  var id: String = UUID().uuidString
+var name: String?
+    var phoneNum: String?
+
 }

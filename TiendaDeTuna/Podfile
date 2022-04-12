@@ -8,7 +8,7 @@ target 'TiendaDeTuna' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Analytics'
-
+pod 'FirebaseFirestoreSwift', '> 7.0-beta'
   # Pods for TiendaDeTuna
 
   target 'TiendaDeTunaTests' do
